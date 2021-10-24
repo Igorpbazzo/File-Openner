@@ -32,7 +32,6 @@ type
     Panel2: TPanel;
     btnfechar: TcxButton;
     dxSkinController1: TdxSkinController;
-    cxButton1: TcxButton;
     Panel3: TPanel;
     edtComando: TcxTextEdit;
     btnBOTAOPRINCIPAL: TcxButton;

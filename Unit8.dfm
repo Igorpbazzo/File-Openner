@@ -86,14 +86,6 @@ object fmMain: TfmMain
       OnClick = btnfecharClick
     end
   end
-  object cxButton1: TcxButton
-    Left = 160
-    Top = 200
-    Width = 75
-    Height = 25
-    Caption = 'cxButton1'
-    TabOrder = 2
-  end
   object Panel3: TPanel
     Left = 0
     Top = 73
@@ -101,7 +93,7 @@ object fmMain: TfmMain
     Height = 40
     Align = alTop
     BevelOuter = bvLowered
-    TabOrder = 3
+    TabOrder = 2
     object edtComando: TcxTextEdit
       AlignWithMargins = True
       Left = 4
@@ -126,7 +118,7 @@ object fmMain: TfmMain
       Width = 105
       Height = 32
       Align = alLeft
-      Caption = 'PRESS ME'
+      Caption = 'Press'
       OptionsImage.Glyph.SourceDPI = 96
       OptionsImage.Glyph.Data = {
         3C3F786D6C2076657273696F6E3D22312E302220656E636F64696E673D225554
@@ -230,14 +222,14 @@ object fmMain: TfmMain
     end
   end
   object opfile: TOpenDialog
-    Left = 592
-    Top = 184
+    Left = 664
+    Top = 8
   end
   object dxSkinController1: TdxSkinController
     NativeStyle = False
     SkinName = 'DevExpressDarkStyle'
     RenderMode = rmDirectX
-    Left = 392
-    Top = 128
+    Left = 632
+    Top = 16
   end
 end
